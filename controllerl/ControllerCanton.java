@@ -47,6 +47,7 @@ public class ControllerCanton {
 
 	}
 //no quiero alterar mi codigo pero esto es una prueba desde local
+	//commit desde la web
 	public void actionListenerEliminar(String id_canton, Distgeografica1 f) {
 		try {
 			manager.eliminarCanton(id_canton);
@@ -71,7 +72,7 @@ public class ControllerCanton {
 		try {
 			manager.editarCanton(id_canton, id_provincia, nombre.toUpperCase());
 			listado = manager.findallCanton();
-			JSFUtil.crearMensajeInfo("Actualización correcta.");
+			JSFUtil.crearMensajeInfo("ActualizaciÃ³n correcta.");
 			limpiar();
 		} catch (Exception e) {
 			JSFUtil.crearMensajeError(e.getMessage());
