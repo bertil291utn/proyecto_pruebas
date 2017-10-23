@@ -46,7 +46,7 @@ public class ControllerCanton {
 		limpiar();
 
 	}
-
+//no quiero alterar mi codigo pero esto es una prueba desde local
 	public void actionListenerEliminar(String id_canton, Distgeografica1 f) {
 		try {
 			manager.eliminarCanton(id_canton);
