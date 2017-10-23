@@ -1,4 +1,4 @@
-package mies.controllerl;
+﻿package mies.controllerl;
 
 import java.util.List;
 
@@ -48,6 +48,7 @@ public class ControllerCanton {
 	}
 //no quiero alterar mi codigo pero esto es una prueba desde local
 	//commit desde la web
+//editado para ver por consola
 	public void actionListenerEliminar(String id_canton, Distgeografica1 f) {
 		try {
 			manager.eliminarCanton(id_canton);
