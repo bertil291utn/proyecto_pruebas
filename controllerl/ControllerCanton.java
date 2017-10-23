@@ -20,7 +20,7 @@ public class ControllerCanton {
 	private String nombre;
 	private List<Distgeografica1> listado;
 	private List<Distgeografica1> listadoi;
-
+//cambiado editado
 	@EJB
 	private ManagerCanton manager;
 	@EJB
