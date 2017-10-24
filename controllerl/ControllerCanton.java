@@ -21,6 +21,7 @@ public class ControllerCanton {
 	private List<Distgeografica1> listado;
 	private List<Distgeografica1> listadoi;
 //cambiado editado
+//otra vez ;lo he cambiado
 	@EJB
 	private ManagerCanton manager;
 	@EJB
