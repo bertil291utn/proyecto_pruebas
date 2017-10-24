@@ -14,7 +14,7 @@ import mies.view.utill.JSFUtil;
 @ManagedBean
 @SessionScoped
 public class ControllerCanton {
-	private String id_cantones;
+	private String id_canton;
 	private String id_provincia;
 	private String id_institucionS;
 	private String nombre;
