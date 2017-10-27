@@ -47,6 +47,16 @@ public class ControllerCanton {
 		limpiar();
 
 	}
+	/*suma de dos numeros*/
+	public int actionsuma(int n1, int n2){
+		return n1+n2
+	}
+	/*Resta de dos numeros*/
+	public int actionresta(int n1, int n2){
+		return n1-n2
+	}
+	
+	
 //no quiero alterar mi codigo pero esto es una prueba desde local
 	//commit desde la web
 //editado para ver por consola
