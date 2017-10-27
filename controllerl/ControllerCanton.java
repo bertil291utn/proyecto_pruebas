@@ -20,8 +20,7 @@ public class ControllerCanton {
 	private String nombre;
 	private List<Distgeografica1> listado;
 	private List<Distgeografica1> listadoi;
-//cambiado editado
-//otra vez ;lo he cambiado
+
 	@EJB
 	private ManagerCanton manager;
 	@EJB
@@ -50,17 +49,6 @@ public class ControllerCanton {
 //no quiero alterar mi codigo pero esto es una prueba desde local
 	//commit desde la web
 //editado para ver por consola
-	public void actionListenerEliminar(String id_canton, Distgeografica1 f) {
-		try {
-			manager.eliminarCanton(id_canton);
-			listado = manager.findallCanton();
-			JSFUtil.crearMensajeInfo("Canton\n " + f.getDescripcion() + " eliminado satisfactoriamente ");
-		} catch (Exception e) {
-			JSFUtil.crearMensajeError(e.getMessage());
-			e.printStackTrace();
-		}
-
-	}
 
 	public void actionListenerCargar(Distgeografica1 f) {
 		id_canton = f.getIdDistg1();
